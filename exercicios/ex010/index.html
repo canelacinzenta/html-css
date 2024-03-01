@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+</head>
+<body>
+    <h1>Vamos criar um link</h1>
+    <!--hreflang : indica qual idioma principal do site para onde o link está desviando-->
+    <!--target: _blank = abre link em nova aba
+    _self = abre link na mesma aba (padrão) -->
+    <a href="https://google.com" hreflang="pt-br" target="_blank">Site do Google</a>
+
+    <!--recurso para indicar qual é a natureza do destino usando o atributo rel-->
+
+    <!--next : link é para próxima parte do documento atual-->
+    <!--prev : parte anterior do documento atual-->
+    <!--author : para o site do autor do artigo atual-->
+    <!--external : para outro site que não faz parte do site-->
+
+    <a href="pagina2.html" target="_self" rel="next"></a>
+
+    <!--link local | não é necessário indicar a url completa-->
+
+
+    <h2>Downloads</h2>
+
+    <p>Aqui está o pdf da aula 10 para <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf" download="aulas-pdf/10 - Ligações em toda parte.pdf" type="application/pdf" target="_blank">download</a></p>
+
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://github.com/canelacinzenta" target="_blank" rel="external">repositório público no github</a></p>
+    <p>Você também pode acessar o meu <a href="https://x.com/nomecriativoaki" target="_blank" rel="external">twitter</a></p>
+    <h2>Usando links internos</h2>
+    <p>Esta é a primeira página do site. Se você quiser pode acessar também a minha <a href="pag002.html" rel="next" target="_self">Segunda página</a></p>
+    <p>Você também pode acessar nossa terceira <a href="noticias/pag003.html" target="_self" rel="next"> página de notícias</a></p>
+
+    <h1>Links para downloads</h1>
+    <ul>
+        <li><a href="livro/meulivro.pdf.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em pdf</a></li>
+        <li><a href="livro/meulivro.pdf.zip" download="meulivro.zip" type="application/zip">Baixar o arquivo ZIP</a></li>
+    </ul>
+</body>
+</html>

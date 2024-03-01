@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+
+    <video width="500" controls poster="imagens/capa.png" autoplay loop>
+        <!--A ORDEM TEM TOTAL INFLUÊNCIA-->
+        <source src="midias/meuvideo.mp4" type="video/mp4">
+        <source src="midias/meuvideo.m4v" type="video/mp4">
+        <source src="midias/meuvideo.webm" type="video/webm">
+        <source src="midias/meuvideo.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+<br>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <p>Este vídeo está hospedado em um servidor externo</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FHxz2n7LehA?si=DOa0wev5kT1eVQID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/768107556?h=97f2ae5e4e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/768107556">OSMOSIS</a> from <a href="https://vimeo.com/gentlecowboys">Gentle Cowboys</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>

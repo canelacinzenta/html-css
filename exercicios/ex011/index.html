@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(min-width: 950px)" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(min-width: 650px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzinho áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/funky-carioca.mp3" type="audio/mpeg">
+        <!--
+        <source src="midia/funky-carioca.ogg" type="audio/ogg">
+        <source src="midia/funky-carioca.wav" type="audio/wav"> -->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/funky-carioca.mp3" download="funky-carioca.mp3" type="application/mp3">Clique aqui</a> para download.</p>
+    </audio>
+
+    <h1>Página 02 </h1>
+    <p><a href="pag002.html">Clique aqui</a> para ir a página 02</p>
+
+    
+</body>
+</html>

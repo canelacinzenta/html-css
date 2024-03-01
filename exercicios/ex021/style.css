@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    border: 10px solid red;
+    padding: 15px 10px 15px 10px; /* sentido horário do relógio */
+    margin: 10px 10px 40px 10px;
+    outline: 5px dashed brown;
+}
+
+a {
+    border: 10px solid red;
+    padding: 10px;
+}

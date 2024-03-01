@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'letraakiona';
+            src: url('Akiona.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* Tipos de format ()
+               - opentype (otf)
+               - truetype (ttf)
+               - embedded-opentype
+               - truetype-aat (Apple Advanced Typography)
+               -svg
+            */
+        }
+        body {
+            font-family: 'letraakiona', sans-serif;
+        }
+
+        h1 {
+            font-family: 'letraakiona', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio consectetur natus itaque corrupti exercitationem dolores amet, ratione fugit ab vero saepe cum ut velit? Quis at distinctio ea nam magnam!</p>
+</body>
+</html>

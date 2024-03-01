@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+h1 {
+    width: 500px;
+    height: 100px;
+    background-color: lightgray;
+    border-width: 15px;
+    border-style: solid;
+    border-color: red;
+    /* shorthand : 
+        border: 10px solid red;
+    */
+    padding: 20px;
+    outline-width: 30px;
+    outline-style: solid;
+    outline-color: black;
+    /* shorthand :
+        outline: 30px solid blue;
+    */
+    margin: 50px;
+}
+
+.block {
+    display: block;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+
+.inline {
+    display: inline;
+    background-color: lightgreen;
+    margin-right: 10px;
+}
